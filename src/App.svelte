@@ -9,11 +9,15 @@
 
 <style>
 
-	:global(body.dark-mode) {
-		background-color: #1d3040;
-		color: white;
-		transition: background 0.8s linear 0.2s;
-	}
+:global(body) {
+	transition: background 0.8s linear 0.2s;
+}
+
+:global(body.dark-mode) {
+	background-color: #1d3040;
+	color: white;
+	transition: background 0.8s linear 0.2s;
+}
 
 main {
 	margin: 0px;
